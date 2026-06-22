@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+
+# ML Models
+*.keras
+*.h5
+*.pb
+
+# OS files
+.DS_Store
+Thumbs.db
