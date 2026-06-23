@@ -7,7 +7,7 @@ class ModelService:
     def __init__(self):
 
         self.model = load_model(
-            "models/counterfeit_drug_detector.keras"
+            "models/counterfeit_drug_detector_cnn.keras"
         )
 
         with open(
